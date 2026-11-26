@@ -29,13 +29,15 @@ All conversations, companies and products are fictional. No real customer data i
 | File | What it is |
 |---|---|
 | `cases.py` | 50 synthetic conversations with designed ground truth |
-| `build.py` | Shuffles IDs, stratified dev/test split, writes prompts (`prompt_before_all.txt`, `prompt_after_all.txt`) |
+| `build.py` | Shuffles IDs and writes prompts (`prompt_before_all.txt`, `prompt_after_all.txt`). The `split` column (dev/test) is kept for future use but was not used here: the correction rules came from prior field experience, not from tuning on this data |
 | `score.py` | Agreement, Cohen's κ with bootstrap 95% CI, precision/recall, false deductions by type |
 | `aggregate.py` | Summarizes repeated runs per model and condition |
 | `run_claude.sh`, `run_claude_repeat.sh` | Runs Claude Code headless (`claude -p`) |
 | `outputs/` | Raw CSV outputs of every run (`<model>[-rN]_<before|after>.csv`) |
 
-Prompt SHA-256: before `404ed03b…5b7900`, after `259fec6f…a5bf24`. Browser runs were checked against these hashes before sending.
+Prompt SHA-256: before `404ed03b…5b7900`, after `259fec6f…a5bf24`. Browser runs were checked against these hashes before sending. Exception: Gemini's input box adds line breaks on paste (6,354 → 6,646 characters as displayed), so Gemini may have received different line breaks.
+
+Single-run κ intervals are wide: bootstrap 95% CI for run 1 was 0.68–1.00 (Claude baseline), 0.55–0.95 (DeepSeek baseline), 0.27–0.68 (Gemini baseline).
 
 ## Reproduce
 
