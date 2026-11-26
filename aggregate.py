@@ -13,11 +13,11 @@ from score import gold, load
 
 HERE = Path(__file__).parent
 # 使い方: python3 aggregate.py            … 全50件
-#         python3 aggregate.py --exclude-ambiguous … review.csv で ambiguous とした件を除く（感度分析）
+#         python3 aggregate.py --exclude-ambiguous … review.csv で flagged=yes とした件を除く（感度分析）
 EXCLUDE = set()
 if "--exclude-ambiguous" in sys.argv:
     rv = pd.read_csv(HERE / "review.csv")
-    EXCLUDE = set(rv.loc[rv.decision == "ambiguous", "id"])
+    EXCLUDE = set(rv.loc[rv.flagged == "yes", "id"])
     print("除外:", sorted(EXCLUDE))
 rows, type_rows = [], []
 for path in sorted((HERE / "outputs").glob("*.csv")):

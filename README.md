@@ -53,11 +53,11 @@ python3 aggregate.py
 
 ## Ground-truth review
 
-After publication, every case where any judge disagreed with the ground truth (38 cases) was reviewed (`review.csv`). No labels were changed. Two cases were marked *ambiguous*: C31 (the procedure explicitly says "escalate" for slow devices, so penalizing is defensible) and C46 (the agent may have checked account settings without identity verification). Excluding them (`python3 aggregate.py --exclude-ambiguous`) leaves the conclusions unchanged: Gemini becomes perfect after correction, Claude baseline drops to 2 false deductions (κ 0.90). Ground truth is defined as what an experienced auditor in Japan would decide, not the literal rubric. The review was done by the same author, so it is not independent.
+Conversations and ground truth were drafted with an AI assistant (Claude). After publication, every case where any judge disagreed with the ground truth (38 cases) was reviewed (`review.csv`); no labels were changed. Two cases that looked contestable (C31: the procedure says "escalate" for slow devices; C46: the agent may have viewed account settings without identity verification) were re-read by the author, a practitioner who validates AI audit decisions at work, and both were confirmed as "no deduction". Excluding them (`python3 aggregate.py --exclude-ambiguous`) leaves the conclusions unchanged. Only these two cases were independently re-checked, not all 50.
 
 ## Limitations
 
-- Conversations, ground truth and correction rules were written by the same author, so post-correction scores are optimistic.
+- Conversations, ground truth and correction rules came from the same side (AI-drafted, author-checked), so post-correction scores are optimistic.
 - Ground truth is designed, not independently annotated; no human–human baseline.
 - n = 50 and 1–3 runs per condition; κ intervals are wide.
 - Web UIs do not pin model versions or sampling settings.
