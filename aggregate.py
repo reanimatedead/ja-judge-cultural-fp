@@ -3,6 +3,7 @@
 出力: 実行回数、κの最小〜最大、平均の誤減点・見逃し、種類別の誤減点が出た回数
 """
 import re
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -11,11 +12,19 @@ from sklearn.metrics import cohen_kappa_score
 from score import gold, load
 
 HERE = Path(__file__).parent
+# 使い方: python3 aggregate.py            … 全50件
+#         python3 aggregate.py --exclude-ambiguous … review.csv で ambiguous とした件を除く（感度分析）
+EXCLUDE = set()
+if "--exclude-ambiguous" in sys.argv:
+    rv = pd.read_csv(HERE / "review.csv")
+    EXCLUDE = set(rv.loc[rv.decision == "ambiguous", "id"])
+    print("除外:", sorted(EXCLUDE))
 rows, type_rows = [], []
 for path in sorted((HERE / "outputs").glob("*.csv")):
     name, cond = path.stem.rsplit("_", 1)
     model = re.sub(r"-r\d+$", "", name)
     df = gold.merge(load(path), on="id", how="inner")
+    df = df[~df.id.isin(EXCLUDE)]
     y, p = df.gold, df.deduct.astype(int)
     k = 0.0 if p.nunique() < 2 else cohen_kappa_score(y, p)
     rows.append({"model": model, "cond": cond, "run": name, "kappa": k,
@@ -38,5 +47,6 @@ by_type = t.groupby(["model", "cond", "type"]).agg(
     誤減点の平均=("fp", "mean"), 誤減点が出た回数=("出た", "sum"), 実行回数=("run", "count"), 減点不要の件数=("n", "first"),
 ).round(1)
 print(by_type.to_string())
-summary.to_csv(HERE / "results_by_model.csv")
-by_type.to_csv(HERE / "results_by_type.csv")
+suffix = "_excl" if EXCLUDE else ""
+summary.to_csv(HERE / f"results_by_model{suffix}.csv")
+by_type.to_csv(HERE / f"results_by_type{suffix}.csv")

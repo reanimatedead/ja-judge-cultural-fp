@@ -33,7 +33,8 @@ Write-up (Japanese): https://zenn.dev/quent/articles/2329d74464eff5
 | `cases.py` | 50 synthetic conversations with designed ground truth |
 | `build.py` | Shuffles IDs and writes prompts (`prompt_before_all.txt`, `prompt_after_all.txt`). The `split` column (dev/test) is kept for future use but was not used here: the correction rules came from prior field experience, not from tuning on this data |
 | `score.py` | Agreement, Cohen's κ with bootstrap 95% CI, precision/recall, false deductions by type |
-| `aggregate.py` | Summarizes repeated runs per model and condition |
+| `aggregate.py` | Summarizes repeated runs per model and condition (`--exclude-ambiguous` for the sensitivity check) |
+| `review.csv` | Post-publication review of contested ground-truth labels |
 | `run_claude.sh`, `run_claude_repeat.sh` | Runs Claude Code headless (`claude -p`) |
 | `outputs/` | Raw CSV outputs of every run (`<model>[-rN]_<before|after>.csv`) |
 
@@ -49,6 +50,10 @@ python3 build.py        # writes cases.csv and prompts
 python3 score.py
 python3 aggregate.py
 ```
+
+## Ground-truth review
+
+After publication, every case where any judge disagreed with the ground truth (38 cases) was reviewed (`review.csv`). No labels were changed. Two cases were marked *ambiguous*: C31 (the procedure explicitly says "escalate" for slow devices, so penalizing is defensible) and C46 (the agent may have checked account settings without identity verification). Excluding them (`python3 aggregate.py --exclude-ambiguous`) leaves the conclusions unchanged: Gemini becomes perfect after correction, Claude baseline drops to 2 false deductions (κ 0.90). Ground truth is defined as what an experienced auditor in Japan would decide, not the literal rubric. The review was done by the same author, so it is not independent.
 
 ## Limitations
 
