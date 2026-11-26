@@ -6,6 +6,8 @@ with 4 models × repeated runs, before and after adding 4 lines of correction ru
 
 All conversations, companies and products are fictional. No real customer data is used.
 
+Write-up (Japanese): https://zenn.dev/quent/articles/2329d74464eff5
+
 ## Key findings (Nov 2026)
 
 | Judge | Condition | Runs | Cohen's κ (min–max) | Mean false deductions |
