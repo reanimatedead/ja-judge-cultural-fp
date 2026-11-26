@@ -1,0 +1,10 @@
+claude_before: model=claude-opus-4-8 via Claude Code CLI 2.1.197, 159s, cost_usd=0.4248 (50件)
+deepseek_before: chat.deepseek.com web (thinking表示あり), 2026-11-26 23:50頃
+claude_after: model=claude-opus-4-8, 134s, cost_usd=0.3943
+qwen_before: chat.qwen.ai Qwen3.7-Plus mode=Auto(思考あり), 約12分
+deepseek after: 3 runs identical
+gemini_before: gemini.google.com 自動モード, 2026-11-27 00:00すぎ, 数秒で回答
+gemini r3_after identical to gemini_after (C31 deduct)
+claude repeats: r2/r3 identical to r1 in both conditions
+claude durations_ms/cost_usd: before r1 159203/0.4248, r2 139938/0.3371, r3 235238/0.4961; after r1 134271/0.3943, r2 126332/0.3156, r3 116593/0.3021 (model claude-opus-4-8 via Claude Code 2.1.197)
+qwen-r2_before: 約15分

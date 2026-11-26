@@ -1,0 +1,5 @@
+__pycache__/
+results_*.csv
+raw/*.json
+raw/*.err
+*.log
