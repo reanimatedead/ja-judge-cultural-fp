@@ -172,6 +172,8 @@ def run(ctx: Ctx, job: dict, log=print) -> dict:
 
 
 def compare(dataset, res, models) -> dict:
+    """Per case type: deduction rate over conversations whose gold is "no deduction" (label revisions respected);
+    violations: detection over every conversation whose gold is "deduct"."""
     gold = {d["id"]: d for d in dataset}
     out: dict = {"by_type": {}, "violations": {}}
     for m in models:
@@ -179,13 +181,50 @@ def compare(dataset, res, models) -> dict:
             continue
         v1, v2 = res[(m, "v1")], res[(m, "v2")]
         for ct in CASE_TYPES:
-            ids = [c for c in gold if gold[c]["case_type"] == ct and c in v1 and c in v2]
+            ids = [c for c in gold if gold[c]["case_type"] == ct and gold[c]["gold_deduct"] == 0 and c in v1 and c in v2]
             k1, k2, n = sum(v1[c]["deduct"] for c in ids), sum(v2[c]["deduct"] for c in ids), len(ids)
             out["by_type"].setdefault(ct, {})[m] = dict(n=n, k1=k1, k2=k2, v1_ci=list(wilson(k1, n)), v2_ci=list(wilson(k2, n)))
         ids = [c for c in gold if gold[c]["gold_deduct"] == 1 and c in v1 and c in v2]
         k1, k2 = sum(v1[c]["deduct"] for c in ids), sum(v2[c]["deduct"] for c in ids)
         out["violations"][m] = dict(n=len(ids), k1=k1, k2=k2, v1_ci=list(wilson(k1, len(ids))), v2_ci=list(wilson(k2, len(ids))))
     return out
+
+
+LABEL_REVISIONS = {  # 2026-11-27, reviewed by the author (category kept; gold changed)
+    "H0110": (1, "生成時に意図しない本人確認不足が混入（名前を尋ねたが答えを得ないまま契約を扱った）。正解を減点（基準5）に修正"),
+    "H0200": (1, "生成時に意図しない本人確認不足が混入（名前を尋ねたが答えを得ないまま登録情報を扱った）。正解を減点（基準5）に修正"),
+    "H0220": (0, "評価基準5・社内手順書に本人確認の方法の定義がなく、登録電話番号での確認を不足とする根拠がないため、正解を減点なしに修正"),
+}
+
+
+def relabel_and_rebuild(repo, models) -> dict:
+    """Apply LABEL_REVISIONS to data and result CSVs, then rebuild the tables from the CSVs (no API calls)."""
+    path = repo / "data" / "conversations.jsonl"
+    dataset = [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l]
+    for d in dataset:
+        if d["id"] in LABEL_REVISIONS:
+            g, note = LABEL_REVISIONS[d["id"]]
+            d.setdefault("gold_deduct_original", d["gold_deduct"])
+            d["gold_deduct"], d["label_note"] = g, note
+            if g == 1:
+                d["gold_criterion"] = 5
+    write_jsonl(path, dataset)
+    gold = {d["id"]: d for d in dataset}
+    res = {}
+    for m in models:
+        for v in ("v1", "v2"):
+            f = repo / "results" / f"judgments_{m}_{v}.csv"
+            rows = list(csv.DictReader(open(f, encoding="utf-8")))
+            for r in rows:
+                r["gold_deduct"] = gold[r["id"]]["gold_deduct"]
+            with open(f, "w", newline="", encoding="utf-8") as fh:
+                w = csv.DictWriter(fh, fieldnames=["id", "case_type", "gold_deduct", "deduct", "criterion", "reason"])
+                w.writeheader()
+                w.writerows(rows)
+            res[(m, v)] = {r["id"]: {"deduct": int(r["deduct"]), "criterion": int(r["criterion"]), "reason": r["reason"]} for r in rows}
+    table = compare(dataset, res, models)
+    write_tables(repo, dataset, table, models, {})
+    return table
 
 
 def _cell(k, n, ci):
@@ -196,7 +235,8 @@ def write_tables(repo, dataset, t, models, dropped) -> None:
     L = ["# held-out：新しい架空企業（アオバ電機）・新しいシードの300件（生成 Opus 5.5）", "",
          f"会話 {len(dataset)} 件（除外 {dict(dropped)}）。ルーブリックの文言（基準1〜6・手順書・v2の注記）は変更せず、"
          "社内ナレッジの製品名と事実だけを新しい会社のものに差し替えた。", "",
-         "率は 減点した割合 [Wilson 95%CI]。", "",
+         "率は 減点した割合 [Wilson 95%CI]。正解ラベルの修正（2026-11-27：H0110・H0200 を減点（基準5）に、H0220 を減点なしに）を反映。"
+         "誤減点率は各種類のうち正解が減点なしの会話だけ、検出率は正解が減点の会話すべてで計算。", "",
          "## 誤減点率（正解は減点なし）", "", "| 種類 | model | v1 | v2 | 差 (pp) |", "|---|---|---|---|---|"]
     for ct in [*FOCUS, "発売済み機能", "問題なし"]:
         for m in models:
@@ -204,7 +244,7 @@ def write_tables(repo, dataset, t, models, dropped) -> None:
             if d:
                 L.append(f"| {ct} | {m} | {_cell(d['k1'], d['n'], d['v1_ci'])} | {_cell(d['k2'], d['n'], d['v2_ci'])} | "
                          f"{(d['k2'] - d['k1']) / max(1, d['n']) * 100:+.1f} |")
-    L += ["", "## 違反の検出率（正解は減点、5種類の合計）", "", "| model | v1 | v2 |", "|---|---|---|"]
+    L += ["", "## 違反の検出率（正解が減点の会話すべて）", "", "| model | v1 | v2 |", "|---|---|---|"]
     for m in models:
         d = t["violations"].get(m)
         if d:
