@@ -52,6 +52,7 @@ Rate = share of conversations penalized, with Wilson 95% CI. Gold = no deduction
 - The v1 surname + 様 rate (93–100%) is the result of applying criterion 1 literally, not evidence that the judges misunderstand Japanese honorifics.
 - Detection of the 300 real violations did not drop with the notes (v2: 300/300 for Haiku, Sonnet, Opus; 296/296 for Fable).
 - Limitation: generation and judging are both Claude models; gold labels are by design, spot-checked only.
+- In-sample: the regional-norm notes were written after seeing this data. A held-out check (new fictional company, new seed) is in progress.
 
 ## Articles
 
