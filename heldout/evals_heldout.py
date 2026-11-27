@@ -190,11 +190,7 @@ def compare(dataset, res, models) -> dict:
     return out
 
 
-LABEL_REVISIONS = {  # 2026-11-27, reviewed by the author (category kept; gold changed)
-    "H0110": (1, "生成時に意図しない本人確認不足が混入（名前を尋ねたが答えを得ないまま契約を扱った）。正解を減点（基準5）に修正"),
-    "H0200": (1, "生成時に意図しない本人確認不足が混入（名前を尋ねたが答えを得ないまま登録情報を扱った）。正解を減点（基準5）に修正"),
-    "H0220": (0, "評価基準5・社内手順書に本人確認の方法の定義がなく、登録電話番号での確認を不足とする根拠がないため、正解を減点なしに修正"),
-}
+LABEL_REVISIONS: dict = {}  # superseded by apijobs/jobs/label_audit.py (2026-11-27 rule)
 
 
 def relabel_and_rebuild(repo, models) -> dict:
@@ -235,7 +231,7 @@ def write_tables(repo, dataset, t, models, dropped) -> None:
     L = ["# held-out：新しい架空企業（アオバ電機）・新しいシードの300件（生成 Opus 5.5）", "",
          f"会話 {len(dataset)} 件（除外 {dict(dropped)}）。ルーブリックの文言（基準1〜6・手順書・v2の注記）は変更せず、"
          "社内ナレッジの製品名と事実だけを新しい会社のものに差し替えた。", "",
-         "率は 減点した割合 [Wilson 95%CI]。正解ラベルの修正（2026-11-27：H0110・H0200 を減点（基準5）に、H0220 を減点なしに）を反映。"
+         "率は 減点した割合 [Wilson 95%CI]。正解ラベルは本人確認の規則（氏名＋登録情報1項目を顧客が実際に答え、担当が照合した場合のみ可）で監査済み（2026-11-27、label_note 参照）。"
          "誤減点率は各種類のうち正解が減点なしの会話だけ、検出率は正解が減点の会話すべてで計算。", "",
          "## 誤減点率（正解は減点なし）", "", "| 種類 | model | v1 | v2 | 差 (pp) |", "|---|---|---|---|---|"]
     for ct in [*FOCUS, "発売済み機能", "問題なし"]:

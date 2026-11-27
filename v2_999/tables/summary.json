@@ -8,34 +8,34 @@
   "n_common": 995,
   "vs_gold": {
     "claude-fable-5-2": {
-      "accuracy": 0.7256281407035176,
-      "kappa": 0.476609420972618,
-      "precision": 0.5206463195691203,
-      "recall": 0.9797297297297297,
+      "accuracy": 0.7326633165829146,
+      "kappa": 0.4887401918552317,
+      "precision": 0.5368043087971275,
+      "recall": 0.9739413680781759,
       "cultural_false_deductions": 260,
       "cultural_cases": 549
     },
     "claude-haiku-5-5": {
-      "accuracy": 0.7065326633165829,
-      "kappa": 0.45334196325759574,
-      "precision": 0.5034013605442177,
-      "recall": 1.0,
+      "accuracy": 0.7095477386934673,
+      "kappa": 0.45692388756791874,
+      "precision": 0.5153061224489796,
+      "recall": 0.9869706840390879,
       "cultural_false_deductions": 279,
       "cultural_cases": 549
     },
     "claude-opus-5-5": {
-      "accuracy": 0.7236180904522613,
-      "kappa": 0.4776424277480925,
-      "precision": 0.5184534270650264,
-      "recall": 0.9966216216216216,
+      "accuracy": 0.7326633165829146,
+      "kappa": 0.4932159447318738,
+      "precision": 0.5360281195079086,
+      "recall": 0.993485342019544,
       "cultural_false_deductions": 263,
       "cultural_cases": 549
     },
     "claude-sonnet-5-5": {
-      "accuracy": 0.7437185929648241,
-      "kappa": 0.5072927852788852,
-      "precision": 0.5374771480804388,
-      "recall": 0.9932432432432432,
+      "accuracy": 0.7547738693467336,
+      "kappa": 0.5275477161627797,
+      "precision": 0.5575868372943327,
+      "recall": 0.993485342019544,
       "cultural_false_deductions": 244,
       "cultural_cases": 549
     }
@@ -69,85 +69,85 @@
   "cultural": {
     "名字様": {
       "claude-fable-5-2": {
-        "false_deductions": 199,
-        "on_target_criterion": 195,
-        "n": 199,
+        "false_deductions": 197,
+        "on_target_criterion": 194,
+        "n": 197,
         "rate": 1.0,
         "ci95": [
-          0.9810610841168677,
+          0.9808724885681055,
           1.0
         ]
       },
       "claude-haiku-5-5": {
-        "false_deductions": 185,
-        "on_target_criterion": 181,
-        "n": 199,
-        "rate": 0.9296482412060302,
+        "false_deductions": 183,
+        "on_target_criterion": 180,
+        "n": 197,
+        "rate": 0.9289340101522843,
         "ci95": [
-          0.885388291795443,
-          0.9576340468175437
+          0.88426003106299,
+          0.9571991088761462
         ]
       },
       "claude-opus-5-5": {
-        "false_deductions": 199,
+        "false_deductions": 197,
         "on_target_criterion": 193,
-        "n": 199,
+        "n": 197,
         "rate": 1.0,
         "ci95": [
-          0.9810610841168677,
+          0.9808724885681055,
           1.0
         ]
       },
       "claude-sonnet-5-5": {
-        "false_deductions": 198,
-        "on_target_criterion": 197,
-        "n": 199,
-        "rate": 0.9949748743718593,
+        "false_deductions": 196,
+        "on_target_criterion": 196,
+        "n": 197,
+        "rate": 0.9949238578680203,
         "ci95": [
-          0.972088760393221,
-          0.9991124133305124
+          0.971810995601377,
+          0.999103396636088
         ]
       }
     },
     "一般手順": {
       "claude-fable-5-2": {
-        "false_deductions": 56,
-        "on_target_criterion": 54,
-        "n": 150,
-        "rate": 0.37333333333333335,
+        "false_deductions": 53,
+        "on_target_criterion": 53,
+        "n": 147,
+        "rate": 0.36054421768707484,
         "ci95": [
-          0.2999970542949877,
-          0.45299563428859446
+          0.2873868976462456,
+          0.4408047948311612
         ]
       },
       "claude-haiku-5-5": {
-        "false_deductions": 51,
-        "on_target_criterion": 46,
-        "n": 150,
-        "rate": 0.34,
+        "false_deductions": 48,
+        "on_target_criterion": 45,
+        "n": 147,
+        "rate": 0.32653061224489793,
         "ci95": [
-          0.2690321465825542,
-          0.4189586179440758
+          0.2559812008773996,
+          0.40591578244815507
         ]
       },
       "claude-opus-5-5": {
-        "false_deductions": 57,
-        "on_target_criterion": 55,
-        "n": 150,
-        "rate": 0.38,
+        "false_deductions": 54,
+        "on_target_criterion": 54,
+        "n": 147,
+        "rate": 0.3673469387755102,
         "ci95": [
-          0.30623600246985916,
-          0.4597570709251133
+          0.29371749239857664,
+          0.4477331419092006
         ]
       },
       "claude-sonnet-5-5": {
-        "false_deductions": 39,
+        "false_deductions": 36,
         "on_target_criterion": 34,
-        "n": 150,
-        "rate": 0.26,
+        "n": 147,
+        "rate": 0.24489795918367346,
         "ci95": [
-          0.19642034813317322,
-          0.33556579865677183
+          0.1824616439801836,
+          0.3203280373809263
         ]
       }
     },
@@ -155,41 +155,41 @@
       "claude-fable-5-2": {
         "false_deductions": 0,
         "on_target_criterion": 0,
-        "n": 100,
+        "n": 98,
         "rate": 0.0,
         "ci95": [
           0.0,
-          0.03699480747600191
+          0.037721324095458045
         ]
       },
       "claude-haiku-5-5": {
-        "false_deductions": 16,
+        "false_deductions": 14,
         "on_target_criterion": 0,
-        "n": 100,
-        "rate": 0.16,
+        "n": 98,
+        "rate": 0.14285714285714285,
         "ci95": [
-          0.10095202349473717,
-          0.24420444558894414
+          0.0870439104644005,
+          0.2256141781752124
         ]
       },
       "claude-opus-5-5": {
-        "false_deductions": 2,
+        "false_deductions": 1,
         "on_target_criterion": 0,
-        "n": 100,
-        "rate": 0.02,
+        "n": 98,
+        "rate": 0.01020408163265306,
         "ci95": [
-          0.005501852234968185,
-          0.07001316294199365
+          0.0018035013277367812,
+          0.055556163092303754
         ]
       },
       "claude-sonnet-5-5": {
-        "false_deductions": 2,
+        "false_deductions": 0,
         "on_target_criterion": 0,
-        "n": 100,
-        "rate": 0.02,
+        "n": 98,
+        "rate": 0.0,
         "ci95": [
-          0.005501852234968185,
-          0.07001316294199365
+          0.0,
+          0.037721324095458045
         ]
       }
     },
@@ -239,21 +239,21 @@
   "per_case_type": {
     "名字様": {
       "claude-fable-5-2": 1.0,
-      "claude-haiku-5-5": 0.9296482412060302,
+      "claude-haiku-5-5": 0.9289340101522843,
       "claude-opus-5-5": 1.0,
-      "claude-sonnet-5-5": 0.9949748743718593
+      "claude-sonnet-5-5": 0.9949238578680203
     },
     "一般手順": {
-      "claude-fable-5-2": 0.37333333333333335,
-      "claude-haiku-5-5": 0.34,
-      "claude-opus-5-5": 0.38,
-      "claude-sonnet-5-5": 0.26
+      "claude-fable-5-2": 0.36054421768707484,
+      "claude-haiku-5-5": 0.32653061224489793,
+      "claude-opus-5-5": 0.3673469387755102,
+      "claude-sonnet-5-5": 0.24489795918367346
     },
     "発売済み機能": {
       "claude-fable-5-2": 0.0,
-      "claude-haiku-5-5": 0.16,
-      "claude-opus-5-5": 0.02,
-      "claude-sonnet-5-5": 0.02
+      "claude-haiku-5-5": 0.14285714285714285,
+      "claude-opus-5-5": 0.01020408163265306,
+      "claude-sonnet-5-5": 0.0
     },
     "文字起こし崩れ": {
       "claude-fable-5-2": 0.05,
@@ -262,10 +262,10 @@
       "claude-sonnet-5-5": 0.05
     },
     "問題なし": {
-      "claude-fable-5-2": 0.04666666666666667,
-      "claude-haiku-5-5": 0.08666666666666667,
-      "claude-opus-5-5": 0.07333333333333333,
-      "claude-sonnet-5-5": 0.06
+      "claude-fable-5-2": 0.02054794520547945,
+      "claude-haiku-5-5": 0.08904109589041095,
+      "claude-opus-5-5": 0.04794520547945205,
+      "claude-sonnet-5-5": 0.03424657534246575
     },
     "呼び捨て・ため口": {
       "claude-fable-5-2": 1.0,

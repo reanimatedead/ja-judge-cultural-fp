@@ -25,11 +25,19 @@ Generated conversations containing real company or service names would have been
 | `aggregate_heldout.py` | recomputes the tables from `results/` (standard library only) |
 | `evals_heldout.py` | the job that generated and judged this set (runs inside the author's batch-job framework; shown for reference) |
 
+## Labeling rule for identity verification (criterion 5)
+
+Identity is verified only when the customer actually answers **their name plus one registered detail** (registered e-mail,
+phone number, member number, date of birth, ...) and the agent checks it. A vague answer or no answer followed by
+"確認が取れました" is not verification.
+
+Audit (2026-11-27): 20 conversations were read by the author, then every conversation where at least two judges deducted
+under criterion 5 in v2 while the gold was "no deduction" was extracted and reviewed against the rule.
+Relabeled to "deduct (criterion 5)" with the category kept and a `label_note`: H0110, H0158, H0200 (3 of 300, 1.0%).
+H0220 (registered phone number only, no name) stays "deduct". The tables use the audited labels.
+
 ## Caveats
 
 - Same author and same case-type design as the 999 set, so not fully independent.
-- Gold labels are by design. Three labels were revised after review on 2026-11-27 (category kept, `label_note` in the data):
-  H0110 and H0200 → deduct (criterion 5: the agent asked for a name but went on without getting it — an identity-check gap
-  introduced unintentionally at generation); H0220 → no deduction (neither criterion 5 nor the procedure manual defines how
-  identity must be verified, so a registered-phone-number check is not grounds for a deduction). Tables use the revised labels.
+- Gold labels are by design and were audited on 2026-11-27 (see below).
 - Generation and judging are both Claude models.

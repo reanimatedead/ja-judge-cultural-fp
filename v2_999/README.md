@@ -22,31 +22,31 @@ false deductions largely disappear (table below).
 
 | category | judge | v1 | v2 | diff (pp) |
 |---|---|---|---|---|
-| 名字様 | `claude-fable-5-2` | 100% (98%–100%) | 1% (0%–4%) | -99.0 |
-| 名字様 | `claude-haiku-5-5` | 93% (89%–96%) | 3% (1%–6%) | -90.5 |
-| 名字様 | `claude-opus-5-5` | 100% (98%–100%) | 1% (0%–4%) | -99.0 |
-| 名字様 | `claude-sonnet-5-5` | 99% (97%–100%) | 3% (1%–6%) | -97.0 |
-| 一般手順 | `claude-fable-5-2` | 37% (30%–45%) | 3% (1%–7%) | -34.7 |
-| 一般手順 | `claude-haiku-5-5` | 34% (27%–42%) | 9% (5%–14%) | -25.3 |
-| 一般手順 | `claude-opus-5-5` | 38% (31%–46%) | 6% (3%–11%) | -32.0 |
-| 一般手順 | `claude-sonnet-5-5` | 26% (20%–34%) | 7% (4%–12%) | -19.3 |
+| 名字様 | `claude-fable-5-2` | 100% (98%–100%) | 0% (0%–2%) | -100.0 |
+| 名字様 | `claude-haiku-5-5` | 93% (88%–96%) | 2% (1%–5%) | -90.9 |
+| 名字様 | `claude-opus-5-5` | 100% (98%–100%) | 0% (0%–2%) | -100.0 |
+| 名字様 | `claude-sonnet-5-5` | 99% (97%–100%) | 2% (1%–4%) | -98.0 |
+| 一般手順 | `claude-fable-5-2` | 36% (29%–44%) | 2% (1%–6%) | -34.0 |
+| 一般手順 | `claude-haiku-5-5` | 33% (26%–41%) | 7% (4%–13%) | -25.2 |
+| 一般手順 | `claude-opus-5-5` | 37% (29%–45%) | 4% (2%–9%) | -32.7 |
+| 一般手順 | `claude-sonnet-5-5` | 24% (18%–32%) | 5% (2%–10%) | -19.7 |
 | 発売済み機能 | `claude-fable-5-2` | 0% (0%–4%) | 0% (0%–4%) | +0.0 |
-| 発売済み機能 | `claude-haiku-5-5` | 16% (10%–24%) | 6% (3%–12%) | -10.0 |
-| 発売済み機能 | `claude-opus-5-5` | 2% (1%–7%) | 0% (0%–4%) | -2.0 |
-| 発売済み機能 | `claude-sonnet-5-5` | 2% (1%–7%) | 2% (1%–7%) | +0.0 |
+| 発売済み機能 | `claude-haiku-5-5` | 14% (9%–23%) | 4% (2%–10%) | -10.2 |
+| 発売済み機能 | `claude-opus-5-5` | 1% (0%–6%) | 0% (0%–4%) | -1.0 |
+| 発売済み機能 | `claude-sonnet-5-5` | 0% (0%–4%) | 0% (0%–4%) | +0.0 |
 | 文字起こし崩れ | `claude-fable-5-2` | 5% (2%–11%) | 1% (0%–5%) | -4.0 |
 | 文字起こし崩れ | `claude-haiku-5-5` | 27% (19%–36%) | 5% (2%–11%) | -22.0 |
 | 文字起こし崩れ | `claude-opus-5-5` | 5% (2%–11%) | 0% (0%–4%) | -5.0 |
 | 文字起こし崩れ | `claude-sonnet-5-5` | 5% (2%–11%) | 2% (1%–7%) | -3.0 |
 
-Violation detection (gold = deduct; all 5 violation types pooled):
+Violation detection (every conversation whose gold is "deduct", revised labels included):
 
 | judge | v1 | v2 |
 |---|---|---|
-| `claude-fable-5-2` | 290/296 (98.0%) | 296/296 (100.0%) |
-| `claude-haiku-5-5` | 300/300 (100.0%) | 300/300 (100.0%) |
-| `claude-opus-5-5` | 299/300 (99.7%) | 300/300 (100.0%) |
-| `claude-sonnet-5-5` | 298/300 (99.3%) | 300/300 (100.0%) |
+| `claude-fable-5-2` | 299/307 (97.4%) | 302/307 (98.4%) |
+| `claude-haiku-5-5` | 307/311 (98.7%) | 305/311 (98.1%) |
+| `claude-opus-5-5` | 309/311 (99.4%) | 309/311 (99.4%) |
+| `claude-sonnet-5-5` | 309/311 (99.4%) | 310/311 (99.7%) |
 
 Full per-category, per-model table with paired flips: `tables/v1_vs_v2.md`.
 
@@ -59,6 +59,13 @@ Full per-category, per-model table with paired flips: `tables/v1_vs_v2.md`.
   with criterion 1 scoped to "when the agent uses the customer's name".
 - v2 rubric: v1 + three regional-norm notes (surname+様 is correct; safe generic troubleshooting is allowed;
   speech-to-text artifacts are not an agent's language problem). "Already-released feature" got no note and serves as a control.
+
+## Labeling rule for identity verification (criterion 5)
+Identity is verified only when the customer actually answers **their name plus one registered detail** (e.g. registered
+e-mail, phone number, member number, date of birth) and the agent checks it. A vague answer ("the e-mail I registered")
+or no answer followed by "確認が取れました" is not verification. Labels were audited against this rule on 2026-11-27:
+conversations generated with an unintended identity-check gap were relabeled to "deduct (criterion 5)" with the category
+kept and a `label_note` in `data/conversations.jsonl` (11 conversations in this set).
 
 ## Limitations
 - **Generation and judging are both Claude models.** The conversations were written by Claude Sonnet 5.5 and judged by
