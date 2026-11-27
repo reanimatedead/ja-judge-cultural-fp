@@ -24,7 +24,41 @@ Write-up (Japanese): https://zenn.dev/quent/articles/2329d74464eff5
 1. **Run-to-run instability.** With the identical prompt, Gemini (2/3 runs), DeepSeek (1/3) and Qwen (2/2) penalized all 7 conversations where the agent addressed the customer as *surname + 様* (the polite norm in Japan); other runs did not. Claude never did.
 2. **"Not in the internal procedure" = violation** was the one error shared by every model in every baseline run (restart, clear cache, update).
 3. **Literal rubric application.** The rubric deliberately translates a common global template ("address the customer by first name"). In one run Qwen applied it to every conversation and penalized all 50.
+   Because criterion 1 here is an unconditional requirement, penalizing surname + 様 (and Qwen's 50/50) is literal compliance with the rubric, not necessarily a cultural misreading. "False deduction" in this repo means disagreement with the Japanese practitioner ground truth.
 4. **Correction rules work, except where rules collide.** Gemini still penalized one case in 2/3 runs where the procedure ("slow device → escalate") conflicts with correction rule C. Qwen missed a privacy leak in 1/2 corrected runs — check misses, not only false deductions, after adding rules.
+
+## Follow-up: v2 (999 conversations, regional-norm notes)
+
+A larger follow-up re-ran the question on **999 synthetic** conversations with 4 Claude judges (Haiku 5.5, Sonnet 5.5, Opus 5.5, Fable 5.2; Message Batches API).
+v1 is the translated "global template" rubric (criterion 1 scoped to "when the agent uses the customer's name"); v2 adds three regional-norm notes
+(surname + 様 is correct / safe generic troubleshooting is allowed / speech-to-text artifacts are not the agent's language problem).
+Rate = share of conversations penalized, with Wilson 95% CI. Gold = no deduction in all three categories.
+
+| Category (n) | Judge | v1 | v2 | Diff (pp) |
+|---|---|---|---|---|
+| surname + 様 (199) | Haiku 5.5 | 93.0% [88.5–95.8] | 2.5% [1.1–5.7] | −90.5 |
+| | Sonnet 5.5 | 99.5% [97.2–99.9] | 2.5% [1.1–5.7] | −97.0 |
+| | Opus 5.5 | 100.0% [98.1–100.0] | 1.0% [0.3–3.6] | −99.0 |
+| | Fable 5.2 | 100.0% [98.1–100.0] | 1.0% [0.3–3.6] | −99.0 |
+| generic procedure (150) | Haiku 5.5 | 34.0% [26.9–41.9] | 8.7% [5.1–14.3] | −25.3 |
+| | Sonnet 5.5 | 26.0% [19.6–33.6] | 6.7% [3.7–11.8] | −19.3 |
+| | Opus 5.5 | 38.0% [30.6–46.0] | 6.0% [3.2–11.0] | −32.0 |
+| | Fable 5.2 | 37.3% [30.0–45.3] | 2.7% [1.0–6.7] | −34.7 |
+| transcription artifacts (100) | Haiku 5.5 | 27.0% [19.3–36.4] | 5.0% [2.2–11.2] | −22.0 |
+| | Sonnet 5.5 | 5.0% [2.2–11.2] | 2.0% [0.6–7.0] | −3.0 |
+| | Opus 5.5 | 5.0% [2.2–11.2] | 0.0% [0.0–3.7] | −5.0 |
+| | Fable 5.2 | 5.0% [2.2–11.2] | 1.0% [0.2–5.4] | −4.0 |
+
+- The v1 surname + 様 rate (93–100%) is the result of applying criterion 1 literally, not evidence that the judges misunderstand Japanese honorifics.
+- Detection of the 300 real violations did not drop with the notes (v2: 300/300 for Haiku, Sonnet, Opus; 296/296 for Fable).
+- Limitation: generation and judging are both Claude models; gold labels are by design, spot-checked only.
+
+## Articles
+
+| Date | Article |
+|---|---|
+| 2026-11-27 | [LLM判定器は日本の「名字＋様」を減点したりしなかったりする](https://zenn.dev/quent/articles/2329d74464eff5) (this repo, 50 conversations, 4 vendors) |
+| TBD | v2 follow-up: regional-norm notes on 999 conversations — link added after publication |
 
 ## Files
 
