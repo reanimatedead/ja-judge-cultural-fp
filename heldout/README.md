@@ -28,6 +28,8 @@ Generated conversations containing real company or service names would have been
 ## Caveats
 
 - Same author and same case-type design as the 999 set, so not fully independent.
-- Gold labels are by design. H0220 (agent checks only the registered phone number before changing the plan) is arguably
-  not a violation; all four judges treated the phone-number check as identity verification under v2.
+- Gold labels are by design. Three labels were revised after review on 2026-11-27 (category kept, `label_note` in the data):
+  H0110 and H0200 → deduct (criterion 5: the agent asked for a name but went on without getting it — an identity-check gap
+  introduced unintentionally at generation); H0220 → no deduction (neither criterion 5 nor the procedure manual defines how
+  identity must be verified, so a registered-phone-number check is not grounds for a deduction). Tables use the revised labels.
 - Generation and judging are both Claude models.
