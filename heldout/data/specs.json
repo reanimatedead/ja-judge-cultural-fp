@@ -1,0 +1,2102 @@
+[
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "山口",
+  "spec_id": "H0001"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバノート",
+  "hint": "メモが消えた気がする",
+  "surname": "木村",
+  "spec_id": "H0002"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "小林",
+  "spec_id": "H0003"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "伊藤",
+  "spec_id": "H0004"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "後藤",
+  "spec_id": "H0005"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "村上",
+  "spec_id": "H0006"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "加藤",
+  "spec_id": "H0007"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "林",
+  "spec_id": "H0008"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "林",
+  "spec_id": "H0009"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバドライブ",
+  "hint": "請求内容の確認",
+  "surname": "伊藤",
+  "spec_id": "H0010"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "山本",
+  "spec_id": "H0011"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "田中",
+  "spec_id": "H0012"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "佐藤",
+  "spec_id": "H0013"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "西村",
+  "spec_id": "H0014"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "林",
+  "spec_id": "H0015"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "藤田",
+  "spec_id": "H0016"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "鈴木",
+  "spec_id": "H0017"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "村上",
+  "spec_id": "H0018"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "近藤",
+  "spec_id": "H0019"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "井上",
+  "spec_id": "H0020"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "吉田",
+  "spec_id": "H0021"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "阿部",
+  "spec_id": "H0022"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "石川",
+  "spec_id": "H0023"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "坂本",
+  "spec_id": "H0024"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "渡辺",
+  "spec_id": "H0025"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "村上",
+  "spec_id": "H0026"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "加藤",
+  "spec_id": "H0027"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "石川",
+  "spec_id": "H0028"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "高橋",
+  "spec_id": "H0029"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "清水",
+  "spec_id": "H0030"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "田中",
+  "spec_id": "H0031"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "中村",
+  "spec_id": "H0032"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "前田",
+  "spec_id": "H0033"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "吉田",
+  "spec_id": "H0034"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "遠藤",
+  "spec_id": "H0035"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "アオバノート",
+  "hint": "メモが消えた気がする",
+  "surname": "石川",
+  "spec_id": "H0036"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "加藤",
+  "spec_id": "H0037"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "清水",
+  "spec_id": "H0038"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "小林",
+  "spec_id": "H0039"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "藤田",
+  "spec_id": "H0040"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "森",
+  "spec_id": "H0041"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバドライブ",
+  "hint": "請求内容の確認",
+  "surname": "中村",
+  "spec_id": "H0042"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "山田",
+  "spec_id": "H0043"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "山崎",
+  "spec_id": "H0044"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "森",
+  "spec_id": "H0045"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカフォンS",
+  "hint": "通知が来ない",
+  "surname": "坂本",
+  "spec_id": "H0046"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "橋本",
+  "spec_id": "H0047"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "中村",
+  "spec_id": "H0048"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "森",
+  "spec_id": "H0049"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "坂本",
+  "spec_id": "H0050"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "近藤",
+  "spec_id": "H0051"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "橋本",
+  "spec_id": "H0052"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "加藤",
+  "spec_id": "H0053"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "阿部",
+  "spec_id": "H0054"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "吉田",
+  "spec_id": "H0055"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "坂本",
+  "spec_id": "H0056"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "藤田",
+  "spec_id": "H0057"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "近藤",
+  "spec_id": "H0058"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "山崎",
+  "spec_id": "H0059"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "メモが消えた気がする",
+  "surname": "中村",
+  "spec_id": "H0060"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "遠藤",
+  "spec_id": "H0061"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "前田",
+  "spec_id": "H0062"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "中村",
+  "spec_id": "H0063"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "木村",
+  "spec_id": "H0064"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "清水",
+  "spec_id": "H0065"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "青木",
+  "spec_id": "H0066"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "橋本",
+  "spec_id": "H0067"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "吉田",
+  "spec_id": "H0068"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "山田",
+  "spec_id": "H0069"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "加藤",
+  "spec_id": "H0070"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "伊藤",
+  "spec_id": "H0071"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "山口",
+  "spec_id": "H0072"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "加藤",
+  "spec_id": "H0073"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "佐藤",
+  "spec_id": "H0074"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "渡辺",
+  "spec_id": "H0075"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "近藤",
+  "spec_id": "H0076"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "田中",
+  "spec_id": "H0077"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "山口",
+  "spec_id": "H0078"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "村上",
+  "spec_id": "H0079"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "西村",
+  "spec_id": "H0080"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "森",
+  "spec_id": "H0081"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "岡田",
+  "spec_id": "H0082"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "岡田",
+  "spec_id": "H0083"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "西村",
+  "spec_id": "H0084"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバドライブ",
+  "hint": "請求内容の確認",
+  "surname": "山口",
+  "spec_id": "H0085"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "長谷川",
+  "spec_id": "H0086"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "加藤",
+  "spec_id": "H0087"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "小林",
+  "spec_id": "H0088"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "木村",
+  "spec_id": "H0089"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "池田",
+  "spec_id": "H0090"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "伊藤",
+  "spec_id": "H0091"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "吉田",
+  "spec_id": "H0092"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "佐々木",
+  "spec_id": "H0093"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "後藤",
+  "spec_id": "H0094"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "石川",
+  "spec_id": "H0095"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "青木",
+  "spec_id": "H0096"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "佐々木",
+  "spec_id": "H0097"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "山口",
+  "spec_id": "H0098"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "近藤",
+  "spec_id": "H0099"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "伊藤",
+  "spec_id": "H0100"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカフォンS",
+  "hint": "通知が来ない",
+  "surname": "青木",
+  "spec_id": "H0101"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "藤田",
+  "spec_id": "H0102"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "通知が来ない",
+  "surname": "清水",
+  "spec_id": "H0103"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "山口",
+  "spec_id": "H0104"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "林",
+  "spec_id": "H0105"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "西村",
+  "spec_id": "H0106"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "前田",
+  "spec_id": "H0107"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "田中",
+  "spec_id": "H0108"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "松本",
+  "spec_id": "H0109"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "井上",
+  "spec_id": "H0110"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "佐藤",
+  "spec_id": "H0111"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "後藤",
+  "spec_id": "H0112"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "木村",
+  "spec_id": "H0113"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "メモが消えた気がする",
+  "surname": "伊藤",
+  "spec_id": "H0114"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "長谷川",
+  "spec_id": "H0115"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "林",
+  "spec_id": "H0116"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "西村",
+  "spec_id": "H0117"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "遠藤",
+  "spec_id": "H0118"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "岡田",
+  "spec_id": "H0119"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "渡辺",
+  "spec_id": "H0120"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "清水",
+  "spec_id": "H0121"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "石川",
+  "spec_id": "H0122"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "小林",
+  "spec_id": "H0123"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "山田",
+  "spec_id": "H0124"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "林",
+  "spec_id": "H0125"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "山田",
+  "spec_id": "H0126"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "村上",
+  "spec_id": "H0127"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "藤田",
+  "spec_id": "H0128"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "吉田",
+  "spec_id": "H0129"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "井上",
+  "spec_id": "H0130"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "アオバドライブ",
+  "hint": "請求内容の確認",
+  "surname": "村上",
+  "spec_id": "H0131"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "渡辺",
+  "spec_id": "H0132"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "小林",
+  "spec_id": "H0133"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "遠藤",
+  "spec_id": "H0134"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "村上",
+  "spec_id": "H0135"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "後藤",
+  "spec_id": "H0136"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "井上",
+  "spec_id": "H0137"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "山田",
+  "spec_id": "H0138"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "通知が来ない",
+  "surname": "後藤",
+  "spec_id": "H0139"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "小林",
+  "spec_id": "H0140"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "山本",
+  "spec_id": "H0141"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "清水",
+  "spec_id": "H0142"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "坂本",
+  "spec_id": "H0143"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "森",
+  "spec_id": "H0144"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "山田",
+  "spec_id": "H0145"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "坂本",
+  "spec_id": "H0146"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "近藤",
+  "spec_id": "H0147"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "阿部",
+  "spec_id": "H0148"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "中村",
+  "spec_id": "H0149"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "高橋",
+  "spec_id": "H0150"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "清水",
+  "spec_id": "H0151"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "中村",
+  "spec_id": "H0152"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "山本",
+  "spec_id": "H0153"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "山田",
+  "spec_id": "H0154"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "後藤",
+  "spec_id": "H0155"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "松本",
+  "spec_id": "H0156"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "山口",
+  "spec_id": "H0157"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバドライブ",
+  "hint": "請求内容の確認",
+  "surname": "阿部",
+  "spec_id": "H0158"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "山口",
+  "spec_id": "H0159"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "中村",
+  "spec_id": "H0160"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "藤田",
+  "spec_id": "H0161"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "通知が来ない",
+  "surname": "清水",
+  "spec_id": "H0162"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "鈴木",
+  "spec_id": "H0163"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "佐々木",
+  "spec_id": "H0164"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "佐々木",
+  "spec_id": "H0165"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "森",
+  "spec_id": "H0166"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "佐々木",
+  "spec_id": "H0167"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "山口",
+  "spec_id": "H0168"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "木村",
+  "spec_id": "H0169"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "高橋",
+  "spec_id": "H0170"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "西村",
+  "spec_id": "H0171"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "後藤",
+  "spec_id": "H0172"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "通知が来ない",
+  "surname": "村上",
+  "spec_id": "H0173"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "佐藤",
+  "spec_id": "H0174"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "山口",
+  "spec_id": "H0175"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "近藤",
+  "spec_id": "H0176"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "中村",
+  "spec_id": "H0177"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "村上",
+  "spec_id": "H0178"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "青木",
+  "spec_id": "H0179"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "鈴木",
+  "spec_id": "H0180"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "アオバノート",
+  "hint": "メモが消えた気がする",
+  "surname": "高橋",
+  "spec_id": "H0181"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "藤田",
+  "spec_id": "H0182"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "岡田",
+  "spec_id": "H0183"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "村上",
+  "spec_id": "H0184"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "池田",
+  "spec_id": "H0185"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "藤田",
+  "spec_id": "H0186"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "山田",
+  "spec_id": "H0187"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "後藤",
+  "spec_id": "H0188"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "メモが消えた気がする",
+  "surname": "西村",
+  "spec_id": "H0189"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "石川",
+  "spec_id": "H0190"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "岡田",
+  "spec_id": "H0191"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "渡辺",
+  "spec_id": "H0192"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "山崎",
+  "spec_id": "H0193"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "前田",
+  "spec_id": "H0194"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "阿部",
+  "spec_id": "H0195"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "山田",
+  "spec_id": "H0196"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "村上",
+  "spec_id": "H0197"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "中村",
+  "spec_id": "H0198"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "井上",
+  "spec_id": "H0199"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "村上",
+  "spec_id": "H0200"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "加藤",
+  "spec_id": "H0201"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "近藤",
+  "spec_id": "H0202"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "佐藤",
+  "spec_id": "H0203"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "高橋",
+  "spec_id": "H0204"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "村上",
+  "spec_id": "H0205"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "遠藤",
+  "spec_id": "H0206"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "木村",
+  "spec_id": "H0207"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "遠藤",
+  "spec_id": "H0208"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "近藤",
+  "spec_id": "H0209"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "小林",
+  "spec_id": "H0210"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "山崎",
+  "spec_id": "H0211"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "伊藤",
+  "spec_id": "H0212"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "吉田",
+  "spec_id": "H0213"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "清水",
+  "spec_id": "H0214"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "長谷川",
+  "spec_id": "H0215"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "西村",
+  "spec_id": "H0216"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "森",
+  "spec_id": "H0217"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "藤田",
+  "spec_id": "H0218"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "石川",
+  "spec_id": "H0219"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "後藤",
+  "spec_id": "H0220"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "請求内容の確認",
+  "surname": "近藤",
+  "spec_id": "H0221"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "阿部",
+  "spec_id": "H0222"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "村上",
+  "spec_id": "H0223"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "岡田",
+  "spec_id": "H0224"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "村上",
+  "spec_id": "H0225"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "橋本",
+  "spec_id": "H0226"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "坂本",
+  "spec_id": "H0227"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "井上",
+  "spec_id": "H0228"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "木村",
+  "spec_id": "H0229"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "清水",
+  "spec_id": "H0230"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "田中",
+  "spec_id": "H0231"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "中村",
+  "spec_id": "H0232"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "木村",
+  "spec_id": "H0233"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "加藤",
+  "spec_id": "H0234"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "中村",
+  "spec_id": "H0235"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "アプリが起動しない",
+  "surname": "阿部",
+  "spec_id": "H0236"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "岡田",
+  "spec_id": "H0237"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "小林",
+  "spec_id": "H0238"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバドライブ",
+  "hint": "請求内容の確認",
+  "surname": "前田",
+  "spec_id": "H0239"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "鈴木",
+  "spec_id": "H0240"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "伊藤",
+  "spec_id": "H0241"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "西村",
+  "spec_id": "H0242"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "加藤",
+  "spec_id": "H0243"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "登録メールの変更",
+  "surname": "森",
+  "spec_id": "H0244"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "近藤",
+  "spec_id": "H0245"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "西村",
+  "spec_id": "H0246"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "山口",
+  "spec_id": "H0247"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "山田",
+  "spec_id": "H0248"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "森",
+  "spec_id": "H0249"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "山本",
+  "spec_id": "H0250"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "通知が来ない",
+  "surname": "林",
+  "spec_id": "H0251"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "佐藤",
+  "spec_id": "H0252"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "岡田",
+  "spec_id": "H0253"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "坂本",
+  "spec_id": "H0254"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "高橋",
+  "spec_id": "H0255"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "中村",
+  "spec_id": "H0256"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "清水",
+  "spec_id": "H0257"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "遠藤",
+  "spec_id": "H0258"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "山崎",
+  "spec_id": "H0259"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "山口",
+  "spec_id": "H0260"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "加藤",
+  "spec_id": "H0261"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "井上",
+  "spec_id": "H0262"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "後藤",
+  "spec_id": "H0263"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "石川",
+  "spec_id": "H0264"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "近藤",
+  "spec_id": "H0265"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "アオバノート",
+  "hint": "メモが消えた気がする",
+  "surname": "佐藤",
+  "spec_id": "H0266"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "渡辺",
+  "spec_id": "H0267"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "長谷川",
+  "spec_id": "H0268"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "井上",
+  "spec_id": "H0269"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカフォンS",
+  "hint": "充電が遅い",
+  "surname": "坂本",
+  "spec_id": "H0270"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "ハルカフォンS",
+  "hint": "動作が遅い",
+  "surname": "岡田",
+  "spec_id": "H0271"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "伊藤",
+  "spec_id": "H0272"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "長谷川",
+  "spec_id": "H0273"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "林",
+  "spec_id": "H0274"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "鈴木",
+  "spec_id": "H0275"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "木村",
+  "spec_id": "H0276"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "共有の設定",
+  "surname": "林",
+  "spec_id": "H0277"
+ },
+ {
+  "case_type": "名字様",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "阿部",
+  "spec_id": "H0278"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "ハルカフォンS",
+  "hint": "画面が割れた",
+  "surname": "山崎",
+  "spec_id": "H0279"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "井上",
+  "spec_id": "H0280"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバノート",
+  "hint": "起動しない",
+  "surname": "青木",
+  "spec_id": "H0281"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "藤田",
+  "spec_id": "H0282"
+ },
+ {
+  "case_type": "呼び捨て・ため口",
+  "product": "ハルカフォンS",
+  "hint": "電池の減りが早い",
+  "surname": "森",
+  "spec_id": "H0283"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "文字盤の変え方",
+  "surname": "岡田",
+  "spec_id": "H0284"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカフォンS",
+  "hint": "通知が来ない",
+  "surname": "山田",
+  "spec_id": "H0285"
+ },
+ {
+  "case_type": "問題なし",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "井上",
+  "spec_id": "H0286"
+ },
+ {
+  "case_type": "発売済み機能",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "佐藤",
+  "spec_id": "H0287"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "ハルカウォッチ3",
+  "hint": "接続できない",
+  "surname": "青木",
+  "spec_id": "H0288"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "アオバドライブ",
+  "hint": "解約と返金",
+  "surname": "後藤",
+  "spec_id": "H0289"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "ハルカフォンS",
+  "hint": "通知が来ない",
+  "surname": "清水",
+  "spec_id": "H0290"
+ },
+ {
+  "case_type": "一般手順",
+  "product": "アオバノート",
+  "hint": "表示されない",
+  "surname": "木村",
+  "spec_id": "H0291"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "ハルカフォンS",
+  "hint": "通知が来ない",
+  "surname": "中村",
+  "spec_id": "H0292"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "画面がつかない",
+  "surname": "山本",
+  "spec_id": "H0293"
+ },
+ {
+  "case_type": "手順違反",
+  "product": "アオバドライブ",
+  "hint": "アップロードが終わらない",
+  "surname": "橋本",
+  "spec_id": "H0294"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "ハルカウォッチ3",
+  "hint": "バンド交換",
+  "surname": "青木",
+  "spec_id": "H0295"
+ },
+ {
+  "case_type": "本人確認なし",
+  "product": "アオバノート",
+  "hint": "同期されない",
+  "surname": "遠藤",
+  "spec_id": "H0296"
+ },
+ {
+  "case_type": "名字様",
+  "product": "ハルカウォッチ3",
+  "hint": "心拍の表示がおかしい",
+  "surname": "佐々木",
+  "spec_id": "H0297"
+ },
+ {
+  "case_type": "誤情報",
+  "product": "アオバドライブ",
+  "hint": "容量不足",
+  "surname": "石川",
+  "spec_id": "H0298"
+ },
+ {
+  "case_type": "文字起こし崩れ",
+  "product": "アオバドライブ",
+  "hint": "接続できない",
+  "surname": "後藤",
+  "spec_id": "H0299"
+ },
+ {
+  "case_type": "機密漏洩",
+  "product": "ハルカウォッチ3",
+  "hint": "防水について",
+  "surname": "西村",
+  "spec_id": "H0300"
+ }
+]
