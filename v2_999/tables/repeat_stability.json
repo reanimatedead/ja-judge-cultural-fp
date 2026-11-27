@@ -1,0 +1,26 @@
+{
+  "claude-haiku-5-5_r2": {
+    "n": 999,
+    "agreement_vs_r1": 0.9169169169169169,
+    "kappa_vs_r1": 0.8269364429685689,
+    "cultural_false_deductions": 290
+  },
+  "claude-haiku-5-5_r3": {
+    "n": 999,
+    "agreement_vs_r1": 0.9269269269269269,
+    "kappa_vs_r1": 0.8474340119204272,
+    "cultural_false_deductions": 301
+  },
+  "claude-sonnet-5-5_r2": {
+    "n": 999,
+    "agreement_vs_r1": 0.992992992992993,
+    "kappa_vs_r1": 0.9858324571053481,
+    "cultural_false_deductions": 244
+  },
+  "claude-sonnet-5-5_r3": {
+    "n": 999,
+    "agreement_vs_r1": 0.990990990990991,
+    "kappa_vs_r1": 0.9817845877068758,
+    "cultural_false_deductions": 244
+  }
+}
