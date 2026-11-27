@@ -67,7 +67,7 @@ Rate = share of conversations penalized, with Wilson 95% CI. Gold = no deduction
 | Date | Article |
 |---|---|
 | 2026-11-27 | [LLM判定器は日本の「名字＋様」を減点したりしなかったりする](https://zenn.dev/quent/articles/2329d74464eff5) (this repo, 50 conversations, 4 vendors) |
-| TBD | 続編（v2 follow-up）: regional-norm notes, 999 in-sample + 300 held-out conversations (`heldout/`) — article URL added after publication |
+| 2026-11-27 | [評価基準と現場の慣習が食い違うとき、注記を足すとLLM判定器はどう変わるか](https://zenn.dev/quent/articles/0a29761c6d2cb9) (v2 follow-up: regional-norm notes, 999 in-sample + 300 held-out conversations, label audit) |
 
 ## Files
 
